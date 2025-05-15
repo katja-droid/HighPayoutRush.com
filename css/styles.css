@@ -1,0 +1,23 @@
+/* Common styles */
+@import url("./base/reset.css");
+@import url("./base/modern-normalized.css");
+@import url("./base/base.css");
+@import url("./utils/fonts.css");
+@import url("./base/variables.css");
+@import url("./base/container.css");
+@import url("./utils/visually-hidden.css");
+@import url("./components/cookies.css");
+
+/* Sections style */
+@import url("./components/header.css");
+@import url("./components/hero.css");
+@import url("./components/features.css");
+@import url("./components/home-reviews.css");
+@import url("./components/reviews.css");
+@import url("./components/our-products.css");
+@import url("./components/newsletter.css");
+@import url("./components/certificates.css");
+@import url("./components/prodact-card.css");
+@import url("./components/cart.css");
+@import url("./components/footer.css");
+@import url("./components/modal-form.css");

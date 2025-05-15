@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "photo": "./img/product-card/card-1.jpg",
+      "title": "Alan Wake",
+      "price": "29.99",
+      "description": "A psychological thriller where a writer battles a darkness that brings his nightmares to life. Explore a mysterious small town with a flashlight as your main weapon.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Action / Thriller",
+        "Platform": "PC",
+        "Release Date": "2010-05-14",
+        "Developer": "Remedy Entertainment",
+        "Publisher": "Remedy Entertainment",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "Memory": "8 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 760 / AMD Radeon R7 260x",
+        "Storage": "20 GB available space"
+      }
+    },
+    {
+      "id": 2,
+      "photo": "./img/product-card/card-2.jpg",
+      "title": "Dying Light",
+      "price": "19.99",
+      "description": "Survive in a city devastated by a mysterious virus that turns people into zombies. Use parkour to navigate the urban environment and craft weapons to fight the infected.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Action / Survival Horror",
+        "Platform": "PC",
+        "Release Date": "2015-01-27",
+        "Developer": "Techland",
+        "Publisher": "Techland",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-2500 / AMD FX-8320",
+        "Memory": "8 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 560 / AMD Radeon HD 6870",
+        "Storage": "40 GB available space"
+      }
+    },
+    {
+      "id": 3,
+      "photo": "./img/product-card/card-3.jpg",
+      "title": "Human Fall Flat",
+      "price": "19.99",
+      "description": "A hilarious, physics-based puzzle platformer where you control wobbly humans in surreal dreamscapes. Solve puzzles alone or with friends in this creative sandbox.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Puzzle / Platformer",
+        "Platform": "PC",
+        "Release Date": "2016-07-22",
+        "Developer": "No Brakes Games",
+        "Publisher": "Curve Digital",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i3-2100 / AMD A8-5600K",
+        "Memory": "2 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 460 / AMD Radeon HD 5850",
+        "Storage": "2 GB available space"
+      }
+    },
+    {
+      "id": 4,
+      "photo": "./img/product-card/card-4.jpg",
+      "title": "Clair Obscur: Expedition",
+      "price": "24.99",
+      "description": "Embark on a mysterious expedition into the unknown, where light and shadow play crucial roles in survival. Uncover ancient secrets in this atmospheric adventure game.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Adventure / Exploration",
+        "Platform": "PC",
+        "Release Date": "2023-09-15",
+        "Developer": "Indie Studio",
+        "Publisher": "Indie Publisher",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-7500 / AMD Ryzen 5 1600",
+        "Memory": "8 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+        "Storage": "25 GB available space"
+      }
+    },
+    {
+      "id": 5,
+      "photo": "./img/product-card/card-5.jpg",
+      "title": "V Rising",
+      "price": "29.99",
+      "description": "Awaken as a weakened vampire after centuries of slumber and survive in a world full of danger. Hunt for blood, rebuild your castle, and convert humans into loyal servants.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Survival / Action RPG",
+        "Platform": "PC",
+        "Release Date": "2022-05-17",
+        "Developer": "Stunlock Studios",
+        "Publisher": "Stunlock Studios",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-6600 / AMD Ryzen 5 1500X",
+        "Memory": "12 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 750 Ti / AMD Radeon R7 360",
+        "Storage": "7 GB available space"
+      }
+    },
+    {
+      "id": 6,
+      "photo": "./img/product-card/card-6.jpg",
+      "title": "The Incredible Adventures of Van Helsing",
+      "price": "14.99",
+      "description": "Step into the shoes of the famous monster hunter's son in this action-RPG set in a gothic-noir world. Battle supernatural foes with weapons and magic in Borgovia.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Action RPG",
+        "Platform": "PC",
+        "Release Date": "2013-05-22",
+        "Developer": "NeocoreGames",
+        "Publisher": "NeocoreGames",
+        "OS": "Windows 10",
+        "Processor": "Intel Core 2 Duo / AMD Athlon 64 X2",
+        "Memory": "4 GB RAM",
+        "Graphics": "NVIDIA GeForce 8800 / AMD Radeon HD 4000",
+        "Storage": "20 GB available space"
+      }
+    },
+    {
+      "id": 7,
+      "photo": "./img/product-card/card-7.jpg",
+      "title": "TransOcean - The Shipping Company",
+      "price": "19.99",
+      "description": "Build your own shipping empire in this business simulation game. Manage fleets, establish routes, and compete against rival companies in the global maritime trade.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Simulation / Strategy",
+        "Platform": "PC",
+        "Release Date": "2014-09-26",
+        "Developer": "Astragon Entertainment",
+        "Publisher": "Astragon Entertainment",
+        "OS": "Windows 10",
+        "Processor": "Intel Core 2 Duo / AMD Athlon 64 X2",
+        "Memory": "4 GB RAM",
+        "Graphics": "NVIDIA GeForce 8800 / AMD Radeon HD 3870",
+        "Storage": "3 GB available space"
+      }
+    },
+    {
+      "id": 8,
+      "photo": "./img/product-card/card-8.jpg",
+      "title": "The Thaumaturge",
+      "price": "34.99",
+      "description": "Explore a mystical version of 1905 Warsaw as a thaumaturge, a person with the ability to see and control supernatural beings called Salutors. Solve mysteries and face moral dilemmas.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "RPG / Adventure",
+        "Platform": "PC",
+        "Release Date": "2024-03-04",
+        "Developer": "Fool's Theory",
+        "Publisher": "11 bit studios",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "Memory": "8 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 1060 / AMD Radeon RX 580",
+        "Storage": "35 GB available space"
+      }
+    },
+    {
+      "id": 9,
+      "photo": "./img/product-card/card-9.jpg",
+      "title": "Iron Harvest",
+      "price": "39.99",
+      "description": "Command giant dieselpunk mechs in this alternate history RTS set in the 1920s. Experience an epic single-player campaign, multiplayer combat, and challenge modes.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "RTS / Strategy",
+        "Platform": "PC",
+        "Release Date": "2020-09-01",
+        "Developer": "KING Art",
+        "Publisher": "Deep Silver",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-4460 / AMD Ryzen 3 1200",
+        "Memory": "8 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 770 / AMD Radeon R9 280",
+        "Storage": "25 GB available space"
+      }
+    },
+    {
+      "id": 10,
+      "photo": "./img/product-card/card-10.jpg",
+      "title": "Red Orchestra 2: Heroes of Stalingrad",
+      "price": "19.99",
+      "description": "Experience the brutal Eastern Front of World War II in this realistic first-person shooter. Lead infantry and tank crews through the Battle of Stalingrad with authentic weapons and tactics.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "FPS / Tactical",
+        "Platform": "PC",
+        "Release Date": "2011-09-13",
+        "Developer": "Tripwire Interactive",
+        "Publisher": "Tripwire Interactive",
+        "OS": "Windows 10",
+        "Processor": "Intel Core 2 Duo / AMD Athlon 64 X2",
+        "Memory": "3 GB RAM",
+        "Graphics": "NVIDIA GeForce 7800 / ATI Radeon HD 2600",
+        "Storage": "10 GB available space"
+      }
+    },
+    {
+      "id": 12,
+      "photo": "./img/product-card/card-12.jpg",
+      "title": "Dark Souls II",
+      "price": "24.99",
+      "description": "Prepare to die again in this brutal action RPG. Face relentless enemies and epic boss battles as you journey through a dark fantasy world. Every victory is hard-earned in this challenging adventure.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Action RPG",
+        "Platform": "PC",
+        "Release Date": "2014-04-25",
+        "Developer": "FromSoftware",
+        "Publisher": "Bandai Namco",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i3-2100 / AMD A8-3870K",
+        "Memory": "4 GB RAM",
+        "Graphics": "NVIDIA GeForce GTX 465 / ATI Radeon HD 6870",
+        "Storage": "14 GB available space"
+      }
+    },
+    {
+      "id": 11,
+      "photo": "./img/product-card/card-11.jpg",
+      "title": "The Last of Us™ Part II Remastered",
+      "price": "49.99",
+      "description": "Experience the emotional journey of Ellie in a post-apocalyptic world ravaged by infected humans. This remastered version features enhanced graphics, new game modes, and additional content.",
+      "button": "in cart",
+      "specs": {
+        "Genre": "Action / Adventure",
+        "Platform": "PC",
+        "Release Date": "2024-01-19",
+        "Developer": "Naughty Dog",
+        "Publisher": "PlayStation PC LLC",
+        "OS": "Windows 10",
+        "Processor": "Intel Core i7-8700 / AMD Ryzen 5 3600X",
+        "Memory": "16 GB RAM",
+        "Graphics": "NVIDIA GeForce RTX 2070 SUPER / AMD Radeon RX 5700 XT",
+        "Storage": "100 GB available space"
+      }
+    }
+  ]
+}

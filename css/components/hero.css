@@ -1,0 +1,134 @@
+.hero-home {
+  position: relative;
+  padding: 160px 0 100px;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  overflow: hidden;
+}
+
+.hero-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/hero-banner.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  letter-spacing: -0.02em;
+  color: var(--secondary-color);
+  max-width: 800px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 600px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+  border-radius: 25px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-link:hover {
+  background-color: var(--accent-color-hover);
+  transform: translateY(-2px);
+  color: var(--secondary-color);
+}
+
+.hero-link-secondary {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-weight: 600;
+  border-radius: 25px;
+  border: 1px solid var(--secondary-color);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-link-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  color: var(--secondary-color);
+}
+
+.hero-stats {
+  display: flex;
+  gap: 48px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.hero-stat-label {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.hero-other {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-other::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../img/hero-banner.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: 0;
+}

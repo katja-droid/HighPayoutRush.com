@@ -1,0 +1,51 @@
+.gaming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+  gap: 40px;
+  justify-items: center;
+}
+
+.gaming-text-block {
+  max-width: 100%;
+  color: #ccc;
+
+  .gaming-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .gaming-desc {
+    font-size: 14px;
+
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+}
+
+.gaming-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  background-color: #00ff00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+
+  span {
+    margin-left: 6px;
+  }
+
+  &:hover {
+    background-color: #00cc00;
+  }
+}
+
+.gaming-image {
+  img {
+    max-height: 400px;
+    object-fit: contain;
+  }
+}
