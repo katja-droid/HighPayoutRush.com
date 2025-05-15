@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse VictoryPathRush's extensive collection of premium PC games. Find your next gaming adventure with instant delivery and secure payments."
+    />
+    <meta
+      name="keywords"
+      content="PC games, digital games, game catalog, Steam keys, RPG games, action games, strategy games"
+    />
+    <title>Game Catalog - VictoryPathRush</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container">
+          <h1 class="page-title">Game Catalog</h1>
+          <p class="page-description">Browse our collection of premium PC games</p>
+        </div>
+      </section>
+      
+      <section class="catalog-section">
+        <div class="container">
+          <div class="catalog-filters">
+            <div class="filter-group">
+              <label for="sort-by">Sort By:</label>
+              <select id="sort-by" class="filter-select">
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+              </select>
+            </div>
+            
+            <div class="filter-group">
+              <label for="genre">Genre:</label>
+              <select id="genre" class="filter-select">
+                <option value="all">All Genres</option>
+                <option value="action">Action</option>
+                <option value="rpg">RPG</option>
+                <option value="strategy">Strategy</option>
+                <option value="simulation">Simulation</option>
+                <option value="adventure">Adventure</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="games-grid" id="games-catalog"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <div id="cookie-notice" class="cookie-notice">
+      <div class="cookie-content">
+        <p>We use cookies to enhance your gaming experience. By continuing, you agree to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-cookie">Accept</button>
+      </div>
+    </div>
+
+    <script src="./js/builder.js" type="module"></script>
+    <script type="module" src="./js/games-catalog.js"></script>
+    <script type="module" src="./js/cart-count.js"></script>
+    <script src="./js/cookies.js"></script>
+  </body>
+</html>

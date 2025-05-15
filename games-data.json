@@ -1,0 +1,124 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Saints Row 2",
+      "image": "./img/games/1.jpg",
+      "price": 9.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2008-10-14",
+      "publisher": "THQ"
+    },
+    {
+      "id": 2,
+      "title": "The Technomancer",
+      "image": "./img/games/2.jpg",
+      "price": 19.99,
+      "genre": "RPG",
+      "platform": "PC",
+      "releaseDate": "2016-06-28",
+      "publisher": "Focus Home Interactive"
+    },
+    {
+      "id": 3,
+      "title": "LEGO: Marvel Super Heroes",
+      "image": "./img/games/3.jpg",
+      "price": 14.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2013-10-22",
+      "publisher": "Warner Bros. Interactive Entertainment"
+    },
+    {
+      "id": 4,
+      "title": "Alan Wake: American Nightmare",
+      "image": "./img/games/4.jpg",
+      "price": 9.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2012-02-22",
+      "publisher": "Remedy Entertainment"
+    },
+    {
+      "id": 5,
+      "title": "The Elder Scrolls V: Skyrim",
+      "image": "./img/games/5.jpg",
+      "price": 29.99,
+      "genre": "RPG",
+      "platform": "PC",
+      "releaseDate": "2011-11-11",
+      "publisher": "Bethesda Softworks"
+    },
+    {
+      "id": 6,
+      "title": "Jagged Alliance Crossfire",
+      "image": "./img/games/6.jpg",
+      "price": 14.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2012-08-14",
+      "publisher": "bitComposer Games"
+    },
+    {
+      "id": 7,
+      "title": "Farming Simulator 25",
+      "image": "./img/games/7.jpg",
+      "price": 39.99,
+      "genre": "Simulation",
+      "platform": "PC",
+      "releaseDate": "2024-11-12",
+      "publisher": "Giants Software"
+    },
+    {
+      "id": 8,
+      "title": "The Surge Steam",
+      "image": "./img/games/8.jpg",
+      "price": 19.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2017-05-16",
+      "publisher": "Focus Home Interactive"
+    },
+    {
+      "id": 9,
+      "title": "WARSAW",
+      "image": "./img/games/9.jpg",
+      "price": 24.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2019-10-02",
+      "publisher": "Gaming Company"
+    },
+    {
+      "id": 10,
+      "title": "Stronghold: Crusader II",
+      "image": "./img/games/10.jpg",
+      "price": 29.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2014-09-23",
+      "publisher": "Firefly Studios"
+    },
+    {
+      "id": 11,
+      "title": "FIA European Truck Racing Championship",
+      "image": "./img/games/11.jpg",
+      "price": 34.99,
+      "genre": "Simulation",
+      "platform": "PC",
+      "releaseDate": "2019-07-18",
+      "publisher": "Bigben Interactive"
+    },
+    {
+      "id": 12,
+      "title": "Sacred 2 (Gold Edition)",
+      "image": "./img/games/12.jpg",
+      "price": 14.99,
+      "genre": "RPG",
+      "platform": "PC",
+      "releaseDate": "2008-10-11",
+      "publisher": "Deep Silver"
+    }
+  ]
+}

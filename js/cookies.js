@@ -1,14 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const cookieBar = document.getElementById("cookieBar");
-  const cookieAccept = document.getElementById("cookieAccept");
+document.addEventListener("DOMContentLoaded", () => {
+  const cookieNotice = document.getElementById("cookie-notice")
+  const cookieAccept = document.getElementById("cookie-accept")
 
-  // Перевірка, чи вже збережено згоду
+  // Check if cookie consent has already been given
   if (!localStorage.getItem("cookieAccepted")) {
-    cookieBar.style.display = "flex";
+    cookieNotice.style.display = "block"
   }
 
-  cookieAccept.addEventListener("click", function () {
-    localStorage.setItem("cookieAccepted", "true");
-    cookieBar.style.display = "none";
-  });
-});
+  if (cookieAccept) {
+    cookieAccept.addEventListener("click", () => {
+      localStorage.setItem("cookieAccepted", "true")
+      cookieNotice.style.display = "none"
+    })
+  }
+})

@@ -1,37 +1,64 @@
-<div class="container header-container">
-  <a href="./" class="header-logo">
-    <img src="./img/logo.png" alt="website logo" />
-  </a>
-  
-  <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open or close menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  
-  <nav class="nav" id="mainNav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.html">Homepage</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./our-products-page.html">Games</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./reviews-page.html">Feedback</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contacts-page.html">Get in Touch</a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="header-actions">
-    <a href="../basket-page.html" class="header-button">
+<div class="header-wrapper">
+  <div class="container header-container">
+    
+    
+    <div class="header-center">
+      <nav class="nav" id="mainNav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./">
+              <span class="nav-icon">🏠</span>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./games-catalog.html">
+              <span class="nav-icon">🎮</span>
+              <span class="nav-text">Games</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./player-reviews.html">
+              <span class="nav-icon">⭐</span>
+              <span class="nav-text">Reviews</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./our-story.html">
+              <span class="nav-icon">📖</span>
+              <span class="nav-text">About Us</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./get-in-touch.html">
+              <span class="nav-icon">📖</span>
+              <span class="nav-text">Contacts</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<div class="header-left">
+      <a href="./" class="header-logo">
+        <img src="./img/logo.png" alt="VictoryPathRush logo" />
+        <div class="logo-text-container">
+          <span class="logo-text-main">VictoryPathRush</span>
+        </div>
+      </a>
+    </div>
+    <div class="header-right">
       
-        <img src="./img/icon/cart.svg">
-     
-      <span id="cart-count" class="cart-count"></span>
-    </a>
+      
+      <a href="./shopping-cart.html" class="cart-button">
+        <img src="./img/cart.webp">
+        <span id="cart-count" class="cart-count"></span>
+      </a>
+      
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
   </div>
 </div>

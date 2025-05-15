@@ -1,33 +1,51 @@
-.cookie-bar {
+.cookie-notice {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 320px;
-  height: auto;
-  background: #111;
-  color: #fff;
-  padding: 20px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: var(--text-color);
+  padding: 15px 0;
   display: none;
+  z-index: 1000;
+  border-top: 2px solid var(--primary-color);
+}
+
+.cookie-content {
+  display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
-  z-index: 15;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .cookie-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.cookie-content p {
+  margin: 0;
   font-size: 14px;
-  box-shadow: 0 -2px 10px #20da4a;
-  border-radius: 12px;
 }
 
-.cookie-bar button {
-  background: #fff;
-  color: #111;
+.btn-cookie {
+  background-color: var(--primary-color);
+  color: var(--text-color);
   border: none;
-  padding: 8px 16px;
-  border-radius: 20px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 600;
   cursor: pointer;
-  font-weight: bold;
-  transition: background 0.2s ease;
-  align-self: flex-end;
+  transition: background-color 0.3s ease;
 }
 
-.cookie-bar button:hover {
-  background: #ddd;
+.btn-cookie:hover {
+  background-color: #2a7a45;
 }

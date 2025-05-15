@@ -47,15 +47,14 @@ document.addEventListener("DOMContentLoaded", () => {
           `
           productsList.appendChild(li)
 
-          // Обробник для додавання в кошик
+          // Fix the product object structure for addToCart
           li.querySelector(".basket-btn").addEventListener("click", () => {
             addToCart({
               id: product.id,
               title: product.title,
               photo: product.photo,
-              price: product.price,
+              price: Number.parseFloat(product.price),
               quantity: 1,
-              type: "product",
             })
           })
         })

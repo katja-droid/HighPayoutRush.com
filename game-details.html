@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="View game details and purchase premium PC games from VictoryPathRush with instant delivery and secure payments."
+    />
+    <meta
+      name="keywords"
+      content="PC games, digital games, game details, Steam keys"
+    />
+    <title>Game Details - VictoryPathRush</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main>
+      <section class="game-details-section">
+        <div class="container">
+          <div class="game-details" id="game-details-container"></div>
+        </div>
+      </section>
+      
+      <section class="related-games">
+        <div class="container">
+          <h2 class="section-title">You May Also Like</h2>
+          <div class="games-grid" id="related-games"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <div id="cookie-notice" class="cookie-notice">
+      <div class="cookie-content">
+        <p>We use cookies to enhance your gaming experience. By continuing, you agree to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-cookie">Accept</button>
+      </div>
+    </div>
+
+    <script src="./js/builder.js" type="module"></script>
+    <script type="module" src="./js/game-details.js"></script>
+    <script type="module" src="./js/related-games.js"></script>
+    <script type="module" src="./js/cart-count.js"></script>
+    <script src="./js/cookies.js"></script>
+  </body>
+</html>

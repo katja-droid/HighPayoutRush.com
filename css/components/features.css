@@ -1,64 +1,214 @@
-.features-section {
+/* Why Choose Us section */
+.why-choose-us {
   padding: 80px 0;
-  background-color: var(--background-color);
-}
-
-.features-container {
-  display: grid;
-  gap: 24px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.feature-box {
-  position: relative;
-  padding: 32px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  text-align: center;
   background-color: var(--card-background);
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
   overflow: hidden;
 }
 
-.feature-box::before {
+.why-choose-us::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--accent-color), var(--accent-secondary));
+  height: 100%;
+  background: radial-gradient(circle at 30% 70%, rgba(30, 86, 49, 0.2), transparent 70%);
+  z-index: 0;
 }
 
-.feature-box:hover {
+.features-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid var(--border-color);
+}
+
+.feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 86, 49, 0.1);
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.feature-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 
 .feature-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--secondary-color);
-}
-
-.subtitle-f {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  color: var(--accent-color);
   font-weight: 700;
+  font-size: 20px;
+  color: var(--text-color);
+  margin: 0;
 }
 
 .feature-text {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-secondary);
   line-height: 1.6;
 }
 
-.feature-box img {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-  filter: hue-rotate(180deg) brightness(1.2);
+/* About page stats */
+.stats-section {
+  padding: 60px 0;
+  background-color: var(--card-background);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.stat-card {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-weight: 800;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.stat-label {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+/* About page story */
+.story-section {
+  padding: 60px 0;
+  background-color: var(--background-color);
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 992px) {
+  .story-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.story-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--text-color);
+}
+
+.story-text {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.story-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Team section */
+.team-section {
+  padding: 60px 0;
+  background-color: var(--card-background);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.team-member {
+  background-color: var(--background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.member-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text-color);
+  margin: 15px 0 5px;
+  text-align: center;
+}
+
+.member-role {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0 0 15px;
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const newsletterForm = document.getElementById("newsletterForm")
-  const newsletterModal = document.getElementById("newsletterModal")
-  const modalClose = document.querySelector(".newsletter-modal-close")
+  const newsletterForm = document.getElementById("newsletter-form")
+  const newsletterModal = document.getElementById("newsletter-modal")
+  const modalClose = document.querySelector(".modal-close")
 
   if (newsletterForm) {
     newsletterForm.addEventListener("submit", (event) => {
@@ -20,12 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Show the thank you modal
         if (newsletterModal) {
           newsletterModal.style.display = "block"
-
-          // Force a reflow before adding the show class for the animation to work
-          void newsletterModal.offsetWidth
-
-          newsletterModal.classList.add("show")
-          document.body.style.overflow = "hidden" // Prevent scrolling
         }
       }
     })
@@ -34,35 +28,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // Close modal when clicking the X
   if (modalClose) {
     modalClose.addEventListener("click", () => {
-      closeNewsletterModal()
-    })
-  }
-
-  // Close modal when clicking outside
-  if (newsletterModal) {
-    newsletterModal.addEventListener("click", (event) => {
-      if (event.target === newsletterModal) {
-        closeNewsletterModal()
+      if (newsletterModal) {
+        newsletterModal.style.display = "none"
       }
     })
   }
 
-  // Close modal with Escape key
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && newsletterModal && newsletterModal.classList.contains("show")) {
-      closeNewsletterModal()
+  // Close modal when clicking outside
+  window.addEventListener("click", (event) => {
+    if (event.target === newsletterModal) {
+      newsletterModal.style.display = "none"
     }
   })
 
-  function closeNewsletterModal() {
-    if (newsletterModal) {
-      newsletterModal.classList.remove("show")
-
-      // Wait for the animation to complete before hiding the modal
-      setTimeout(() => {
-        newsletterModal.style.display = "none"
-        document.body.style.overflow = "" // Restore scrolling
-      }, 300)
+  // Close modal with Escape key
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && newsletterModal && newsletterModal.style.display === "block") {
+      newsletterModal.style.display = "none"
     }
-  }
+  })
 })

@@ -1,65 +1,85 @@
-.product-section {
-  padding-top: 120px;
-}
-.product-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  justify-items: center;
-  gap: 15px;
-  @media (min-width: 768px) {
-    gap: 0;
-  }
-}
-.product-image {
-  width: 301px;
-}
-.product-info {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-}
-.product-info-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
-}
-.product-info-price {
-  font-weight: 700;
-  font-size: clamp(1.25rem, 0.213vw + 1.207rem, 1.375rem);
-  line-height: clamp(1.375rem, 0.234vw + 1.328rem, 1.513rem);
-  letter-spacing: -0.02em;
-  color: darkgoldenrod;
-}
-.product-info-description {
-  font-size: 16px;
-  line-height: 140%;
-  font-family: emoji;
+/* Game details page styles */
+.game-details-section {
+  padding: 120px 0 60px;
+  background-color: var(--background-color);
 }
 
-.product-specs {
+.game-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .game-details {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.game-image-large {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.game-image-large img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.game-info-large {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.game-title-large {
+  font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  color: var(--text-color);
+}
+
+.game-price-large {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--secondary-color);
+}
+
+.game-specs {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 15px;
-  width: 100%;
-  ul {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    li {
-      display: flex;
-      justify-content: space-between;
-      position: relative;
-      padding: 4px 0;
-      font-family: inherit;
-      .spec-label {
-        color: rgb(255, 47, 50);
-      }
-      .spec-value {
-        font-family: auto;
-      }
-    }
-  }
+  margin: 20px 0;
+  padding: 20px;
+  background-color: var(--card-background);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.game-spec {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.game-spec:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.spec-label {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.spec-value {
+  color: var(--text-color);
+}
+
+.related-games {
+  padding: 60px 0;
+  background-color: var(--background-color);
 }
