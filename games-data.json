@@ -2,123 +2,135 @@
   "games": [
     {
       "id": 1,
-      "title": "Saints Row 2",
+      "title": "Doom Eternal",
       "image": "./img/games/1.jpg",
-      "price": 9.99,
+      "price": 39.99,
       "genre": "Action",
       "platform": "PC",
-      "releaseDate": "2008-10-14",
-      "publisher": "THQ"
+      "releaseDate": "2020-03-20",
+      "publisher": "Bethesda Softworks",
+      "description": "Rip and tear through hordes of demons in this fast-paced first-person shooter. As the Doom Slayer, you'll battle Hell's armies with an arsenal of powerful weapons in an epic single-player campaign."
     },
     {
       "id": 2,
-      "title": "The Technomancer",
+      "title": "Squad",
       "image": "./img/games/2.jpg",
-      "price": 19.99,
-      "genre": "RPG",
+      "price": 29.99,
+      "genre": "Simulation",
       "platform": "PC",
-      "releaseDate": "2016-06-28",
-      "publisher": "Focus Home Interactive"
+      "releaseDate": "2020-09-23",
+      "publisher": "Offworld Industries",
+      "description": "Experience large-scale combat in this tactical first-person shooter that emphasizes teamwork and communication. Lead your squad through intense 50v50 battles across vast, realistic environments."
     },
     {
       "id": 3,
-      "title": "LEGO: Marvel Super Heroes",
+      "title": "The Precinct",
       "image": "./img/games/3.jpg",
-      "price": 14.99,
+      "price": 24.99,
       "genre": "Adventure",
       "platform": "PC",
-      "releaseDate": "2013-10-22",
-      "publisher": "Warner Bros. Interactive Entertainment"
+      "releaseDate": "2023-11-10",
+      "publisher": "Digital Cybercherries",
+      "description": "Solve crimes and maintain order in this police simulation game. Investigate cases, interrogate suspects, and experience the challenges of law enforcement in an open-world city."
     },
     {
       "id": 4,
-      "title": "Alan Wake: American Nightmare",
+      "title": "Cities Skylines 2",
       "image": "./img/games/4.jpg",
-      "price": 9.99,
-      "genre": "Action",
+      "price": 49.99,
+      "genre": "Simulation",
       "platform": "PC",
-      "releaseDate": "2012-02-22",
-      "publisher": "Remedy Entertainment"
+      "releaseDate": "2023-10-24",
+      "publisher": "Paradox Interactive",
+      "description": "Build and manage the city of your dreams in this definitive modern city-builder. Create complex transportation networks, manage resources, and watch your metropolis evolve in stunning detail."
     },
     {
       "id": 5,
-      "title": "The Elder Scrolls V: Skyrim",
+      "title": "Risk of Rain 2",
       "image": "./img/games/5.jpg",
-      "price": 29.99,
-      "genre": "RPG",
+      "price": 24.99,
+      "genre": "Action",
       "platform": "PC",
-      "releaseDate": "2011-11-11",
-      "publisher": "Bethesda Softworks"
+      "releaseDate": "2020-08-11",
+      "publisher": "Gearbox Publishing",
+      "description": "Fight your way through hordes of monsters in this roguelike third-person shooter. Discover powerful items, unlock new characters, and face challenging bosses in ever-changing environments."
     },
     {
       "id": 6,
-      "title": "Jagged Alliance Crossfire",
+      "title": "Total War: WARHAMMER III",
       "image": "./img/games/6.jpg",
-      "price": 14.99,
+      "price": 59.99,
       "genre": "Strategy",
       "platform": "PC",
-      "releaseDate": "2012-08-14",
-      "publisher": "bitComposer Games"
+      "releaseDate": "2022-02-17",
+      "publisher": "SEGA",
+      "description": "Command mighty armies and conquer the realm of Chaos in this epic strategy game. Lead one of the many factions in a grand campaign of conquest, diplomacy, and magical warfare."
     },
     {
       "id": 7,
-      "title": "Farming Simulator 25",
+      "title": "Golf With Your Friends",
       "image": "./img/games/7.jpg",
-      "price": 39.99,
-      "genre": "Simulation",
+      "price": 14.99,
+      "genre": "Casual",
       "platform": "PC",
-      "releaseDate": "2024-11-12",
-      "publisher": "Giants Software"
+      "releaseDate": "2020-05-19",
+      "publisher": "Team17",
+      "description": "Tee off in this multiplayer mini golf game for up to 12 players. Navigate challenging courses, use power-ups to sabotage opponents, and customize your ball in this fun party game."
     },
     {
       "id": 8,
-      "title": "The Surge Steam",
+      "title": "LEGO Star Wars: The Skywalker Saga - Deluxe Edition",
       "image": "./img/games/8.jpg",
-      "price": 19.99,
-      "genre": "Action",
+      "price": 49.99,
+      "genre": "Adventure",
       "platform": "PC",
-      "releaseDate": "2017-05-16",
-      "publisher": "Focus Home Interactive"
+      "releaseDate": "2022-04-05",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "description": "Experience all nine Star Wars saga films in a brand new LEGO video game unlike any other. Play as iconic heroes and villains with unique abilities in this family-friendly adventure."
     },
     {
       "id": 9,
-      "title": "WARSAW",
+      "title": "Devil May Cry 5",
       "image": "./img/games/9.jpg",
-      "price": 24.99,
-      "genre": "Strategy",
+      "price": 29.99,
+      "genre": "Action",
       "platform": "PC",
-      "releaseDate": "2019-10-02",
-      "publisher": "Gaming Company"
+      "releaseDate": "2019-03-08",
+      "publisher": "Capcom",
+      "description": "Demon-hunting is a stylish business in this high-octane action game. Play as three unique characters with distinct fighting styles and unleash devastating combos against demonic enemies."
     },
     {
       "id": 10,
-      "title": "Stronghold: Crusader II",
+      "title": "Mount & Blade II: Bannerlord",
       "image": "./img/games/10.jpg",
-      "price": 29.99,
-      "genre": "Strategy",
+      "price": 49.99,
+      "genre": "RPG",
       "platform": "PC",
-      "releaseDate": "2014-09-23",
-      "publisher": "Firefly Studios"
+      "releaseDate": "2022-10-25",
+      "publisher": "TaleWorlds Entertainment",
+      "description": "Forge your path in this medieval sandbox RPG. Lead armies in massive battles, engage in politics, trade, and conquer in a dynamic, living world where your actions shape the narrative."
     },
     {
       "id": 11,
-      "title": "FIA European Truck Racing Championship",
+      "title": "LEGO: Harry Potter Years 1-4",
       "image": "./img/games/11.jpg",
-      "price": 34.99,
-      "genre": "Simulation",
+      "price": 19.99,
+      "genre": "Adventure",
       "platform": "PC",
-      "releaseDate": "2019-07-18",
-      "publisher": "Bigben Interactive"
+      "releaseDate": "2010-06-29",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "description": "Relive the magic of Harry's first four years at Hogwarts in LEGO form. Cast spells, brew potions, and solve puzzles as you experience the wizarding world with the signature LEGO humor."
     },
     {
       "id": 12,
-      "title": "Sacred 2 (Gold Edition)",
+      "title": "Balatro",
       "image": "./img/games/12.jpg",
       "price": 14.99,
-      "genre": "RPG",
+      "genre": "Casual",
       "platform": "PC",
-      "releaseDate": "2008-10-11",
-      "publisher": "Deep Silver"
+      "releaseDate": "2024-02-20",
+      "publisher": "Playstack",
+      "description": "Master the art of poker in this innovative roguelike deck-builder. Create powerful card combinations, unlock unique jokers, and push your luck to achieve the highest possible score."
     }
   ]
 }

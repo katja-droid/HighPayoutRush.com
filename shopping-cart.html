@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Review your cart and checkout securely at VictoryPathRush. Instant delivery of your game keys guaranteed."
+      content="Review your cart and checkout securely at QuickTacticsPlay.com. Instant delivery of your game keys guaranteed."
     />
     <meta
       name="keywords"
       content="game cart, checkout, buy games, digital games"
     />
-    <title>Shopping Cart - VictoryPathRush</title>
+    <title>Shopping Cart - QuickTacticsPlay.com</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,8 +29,8 @@
     <main>
       <section class="page-banner">
         <div class="container">
-          <h1 class="page-title">Shopping Cart</h1>
-          <p class="page-description">Review your items and checkout</p>
+          <h1 class="page-title">Your Shopping Cart</h1>
+          <p class="page-description">Review your items and complete your purchase</p>
         </div>
       </section>
       
@@ -38,7 +38,7 @@
         <div class="container">
           <div class="cart-container">
             <div class="cart-items">
-              <h2 class="summary-title">Shopping Cart Items</h2>
+              <h2 class="cart-section-title">Cart Items</h2>
               <ul id="cart-list" class="cart-list"></ul>
               <p id="empty-cart-message" class="empty-cart-message" style="display: none">
                 Your cart is empty. <a href="./games-catalog.html">Continue shopping</a>
@@ -46,7 +46,7 @@
             </div>
             
             <div class="cart-summary" id="cart-summary">
-              <h2 class="summary-title">Order Summary</h2>
+              <h2 class="cart-section-title">Order Summary</h2>
               
               <div class="summary-row">
                 <span>Items (<span id="item-count">0</span>)</span>
@@ -63,12 +63,9 @@
                 <span id="summary-total">$0.00</span>
               </div>
               
-              <div class="promo-code">
-                <input type="text" placeholder="Promo code" class="promo-input">
-                <button class="btn btn-secondary btn-small">Apply</button>
-              </div>
+          
               
-              <button id="checkout-btn" class="btn btn-primary btn-block">Proceed to Checkout</button>
+              <button id="checkout-btn" class="btn btn-checkout">Proceed to Checkout</button>
             </div>
           </div>
         </div>
@@ -79,8 +76,8 @@
 
     <div id="cookie-notice" class="cookie-notice">
       <div class="cookie-content">
-        <p>We use cookies to enhance your gaming experience. By continuing, you agree to our cookie policy.</p>
-        <button id="cookie-accept" class="btn btn-cookie">Accept</button>
+        <p>We use cookies to enhance your gaming experience. By continuing, you consent to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-gold">Accept</button>
       </div>
     </div>
     
@@ -88,7 +85,7 @@
     <div id="checkout-modal" class="modal">
       <div class="modal-content">
         <span class="modal-close">&times;</span>
-        <h2 class="modal-title">Complete Your Order</h2>
+        <h2 class="modal-title">Complete Your Purchase</h2>
         
         <form id="checkout-form" class="checkout-form">
           <div class="form-group">
@@ -102,11 +99,11 @@
           </div>
           
           <div class="form-group">
-            <label for="payment">Delivery Method</label>
+            <label for="payment">Payment Method</label>
             <select id="payment" name="payment" required>
               <option value="">Select delivery method</option>
               <option value="credit-card">Pickup</option>
-              <option value="paypal">Mail</option>
+              <option value="paypal">Email</option>
             </select>
           </div>
           
@@ -116,16 +113,16 @@
           </div>
           
           <div class="form-actions">
-            <button type="submit" class="btn btn-primary btn-block">Complete Purchase</button>
+            <button type="submit" class="btn btn-checkout">Complete Purchase</button>
           </div>
         </form>
       </div>
     </div>
-
+    <script src="./js/cookie-manager.js"></script>
     <script src="./js/builder.js" type="module"></script>
-    <script type="module" src="./js/cart.js"></script>
-        <script type="module" src="./js/checkout.js"></script>
-    <script type="module" src="./js/cart-count.js"></script>
-    <script src="./js/cookies.js"></script>
+    <script type="module" src="./js/cart-manager.js"></script>
+    <script type="module" src="./js/checkout-manager.js"></script>
+    <script type="module" src="./js/cart-counter.js"></script>
+    <script src="./js/cookie-manager.js"></script>
   </body>
 </html>

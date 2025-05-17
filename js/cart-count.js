@@ -1,5 +1,5 @@
 export function updateCartCount() {
-  const cart = JSON.parse(localStorage.getItem("cart")) || []
+  const cart = JSON.parse(localStorage.getItem("shoppingCart")) || []
   const totalCount = cart.reduce((acc, item) => acc + (item.quantity || 0), 0)
   const cartCountElement = document.getElementById("cart-count")
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Add event listener for storage changes to update cart count across tabs
   window.addEventListener("storage", (event) => {
-    if (event.key === "cart") {
+    if (event.key === "shoppingCart") {
       updateCartCount()
     }
   })

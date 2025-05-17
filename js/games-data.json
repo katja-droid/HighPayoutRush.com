@@ -1,0 +1,124 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Doom Eternal",
+      "image": "./img/games/1.jpg",
+      "price": 39.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2020-03-20",
+      "publisher": "Bethesda Softworks"
+    },
+    {
+      "id": 2,
+      "title": "Squad",
+      "image": "./img/games/2.jpg",
+      "price": 29.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2020-09-23",
+      "publisher": "Offworld Industries"
+    },
+    {
+      "id": 3,
+      "title": "The Precinct",
+      "image": "./img/games/3.jpg",
+      "price": 24.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2023-11-10",
+      "publisher": "Digital Cybercherries"
+    },
+    {
+      "id": 4,
+      "title": "Cities Skylines 2",
+      "image": "./img/games/4.jpg",
+      "price": 49.99,
+      "genre": "Simulation",
+      "platform": "PC",
+      "releaseDate": "2023-10-24",
+      "publisher": "Paradox Interactive"
+    },
+    {
+      "id": 5,
+      "title": "Risk of Rain 2",
+      "image": "./img/games/5.jpg",
+      "price": 24.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2020-08-11",
+      "publisher": "Gearbox Publishing"
+    },
+    {
+      "id": 6,
+      "title": "Total War: WARHAMMER III",
+      "image": "./img/games/6.jpg",
+      "price": 59.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2022-02-17",
+      "publisher": "SEGA"
+    },
+    {
+      "id": 7,
+      "title": "Golf With Your Friends",
+      "image": "./img/games/7.jpg",
+      "price": 14.99,
+      "genre": "Sports",
+      "platform": "PC",
+      "releaseDate": "2020-05-19",
+      "publisher": "Team17"
+    },
+    {
+      "id": 8,
+      "title": "LEGO Star Wars: The Skywalker Saga - Deluxe Edition",
+      "image": "./img/games/8.jpg",
+      "price": 49.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2022-04-05",
+      "publisher": "Warner Bros. Interactive Entertainment"
+    },
+    {
+      "id": 9,
+      "title": "Devil May Cry 5",
+      "image": "./img/games/9.jpg",
+      "price": 29.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2019-03-08",
+      "publisher": "Capcom"
+    },
+    {
+      "id": 10,
+      "title": "Mount & Blade II: Bannerlord",
+      "image": "./img/games/10.jpg",
+      "price": 49.99,
+      "genre": "RPG",
+      "platform": "PC",
+      "releaseDate": "2022-10-25",
+      "publisher": "TaleWorlds Entertainment"
+    },
+    {
+      "id": 11,
+      "title": "LEGO: Harry Potter Years 1-4",
+      "image": "./img/games/11.jpg",
+      "price": 19.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2010-06-29",
+      "publisher": "Warner Bros. Interactive Entertainment"
+    },
+    {
+      "id": 12,
+      "title": "Balatro",
+      "image": "./img/games/12.jpg",
+      "price": 14.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2024-02-20",
+      "publisher": "Playstack"
+    }
+  ]
+}

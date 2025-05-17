@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Read what our customers say about VictoryPathRush. Discover why gamers trust us for their PC gaming needs."
+      content="Read what our customers say about QuickTacticsPlay.com. Discover why gamers trust us for their PC gaming needs."
     />
     <meta
       name="keywords"
-      content="game reviews, customer testimonials, gamer feedback, VictoryPathRush reviews"
+      content="game reviews, customer testimonials, gamer feedback, QuickTacticsPlay.com reviews"
     />
-    <title>Player Reviews - VictoryPathRush</title>
+    <title>Player Reviews - QuickTacticsPlay.com</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,6 +22,97 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      .reviews-list {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+
+      .review-card {
+        background: linear-gradient(135deg, #0c0042, #5c520e);
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      .review-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      .reviewer-info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .reviewer-avatar {
+        width: 40px;
+        height: 40px;
+        background: #afb800;
+        color: #f0f9ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .reviewer-details h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #f0f9ff;
+        margin: 0;
+      }
+
+      .reviewer-details p {
+        font-size: 0.875rem;
+        color: #e0f2fe;
+        margin: 0;
+      }
+
+      .review-rating {
+        font-size: 1rem;
+        color: #cdef46;
+      }
+
+      .review-content h4 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #f0f9ff;
+        margin: 0 0 0.5rem;
+      }
+
+      .review-content p {
+        font-size: 0.875rem;
+        color: #e0f2fe;
+        line-height: 1.6;
+        margin: 0 0 1rem;
+      }
+
+      .review-game {
+        font-size: 0.875rem;
+        color: #e0f2fe;
+      }
+
+      .game-label {
+        font-weight: 600;
+        color: #deef46;
+      }
+
+      .game-name {
+        color: #f0f9ff;
+      }
+    </style>
   </head>
   <body>
     <header class="header"></header>
@@ -30,110 +121,151 @@
       <section class="page-banner">
         <div class="container">
           <h1 class="page-title">Player Reviews</h1>
-          <p class="page-description">What our community says about us</p>
         </div>
       </section>
       
-  
-      
-    <section class="reviews-list-section">
-  <div class="container">
-    <div class="reviews-list">
-      <div class="review-card">
-        <div class="review-header">
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">LS</div>
-            <div class="reviewer-details">
-              <h3 class="reviewer-name">Lara Stevens</h3>
-              <p class="review-date">May 5, 2025</p>
+      <section class="reviews-list-section">
+        <div class="container">
+          <div class="reviews-list">
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">AM</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Ava Mitchell</h3>
+                    <p class="review-date">May 10, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Fast, secure, and seamless!</h4>
+                <p class="review-text">
+                  I ordered a game and received the key instantly. QuickTacticsPlay.com made the entire process smooth. Will definitely buy again.
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Ghost of Tsushima</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">NW</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Noah Wilson</h3>
+                    <p class="review-date">April 25, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★☆</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Solid prices, minor delay</h4>
+                <p class="review-text">
+                  Overall good experience. The key arrived a couple of minutes later than expected, but still within reason. Price was great.
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Evil West</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">SC</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Sophie Carter</h3>
+                    <p class="review-date">April 15, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Highly recommended store!</h4>
+                <p class="review-text">
+                  I’ve bought three titles from QuickTacticsPlay.com now. Never had an issue. Their prices beat most other stores.
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Dark Souls: Remastered</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">LP</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Liam Patel</h3>
+                    <p class="review-date">March 20, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Top-notch customer support</h4>
+                <p class="review-text">
+                  I had a small issue with redeeming a key and their support team resolved it within minutes. Very impressed!
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Monster Hunter Wilds</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">EH</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Emma Harris</h3>
+                    <p class="review-date">March 10, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★☆</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Great selection, easy purchase</h4>
+                <p class="review-text">
+                  The website is easy to navigate, and I found exactly what I wanted. Delivery was quick, though I wish they had more indie titles.
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Human: Fall Flat</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="review-header">
+                <div class="reviewer-info">
+                  <div class="reviewer-avatar">JT</div>
+                  <div class="reviewer-details">
+                    <h3 class="reviewer-name">Jacob Turner</h3>
+                    <p class="review-date">February 28, 2025</p>
+                  </div>
+                </div>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-content">
+                <h4 class="review-title">Best place for game keys!</h4>
+                <p class="review-text">
+                  QuickTacticsPlay.com has become my go-to for game purchases. Instant delivery and competitive prices make it a no-brainer.
+                </p>
+                <div class="review-game">
+                  <span class="game-label">Purchased:</span>
+                  <span class="game-name">Devil May Cry HD Collection</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="review-rating">★★★★★</div>
         </div>
-        <div class="review-content">
-          <h4 class="review-title">Fast, secure, and seamless!</h4>
-          <p class="review-text">
-            I ordered a game and received the key instantly. VictoryPathRush made the entire process smooth. Will definitely buy again.
-          </p>
-          <div class="review-game">
-            <span class="game-label">Purchased:</span>
-            <span class="game-name">Cyberpunk 2077</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="review-card">
-        <div class="review-header">
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">EB</div>
-            <div class="reviewer-details">
-              <h3 class="reviewer-name">Ethan Brooks</h3>
-              <p class="review-date">April 20, 2025</p>
-            </div>
-          </div>
-          <div class="review-rating">★★★★☆</div>
-        </div>
-        <div class="review-content">
-          <h4 class="review-title">Solid prices, minor delay</h4>
-          <p class="review-text">
-            Overall good experience. The key arrived a couple of minutes later than expected, but still within reason. Price was great.
-          </p>
-          <div class="review-game">
-            <span class="game-label">Purchased:</span>
-            <span class="game-name">Hogwarts Legacy</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="review-card">
-        <div class="review-header">
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">KM</div>
-            <div class="reviewer-details">
-              <h3 class="reviewer-name">Kylie Moore</h3>
-              <p class="review-date">April 2, 2025</p>
-            </div>
-          </div>
-          <div class="review-rating">★★★★★</div>
-        </div>
-        <div class="review-content">
-          <h4 class="review-title">Highly recommended store!</h4>
-          <p class="review-text">
-            I’ve bought three titles from VictoryPathRush now. Never had an issue. Their prices beat most other stores.
-          </p>
-          <div class="review-game">
-            <span class="game-label">Purchased:</span>
-            <span class="game-name">Red Dead Redemption 2</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="review-card">
-        <div class="review-header">
-          <div class="reviewer-info">
-            <div class="reviewer-avatar">RS</div>
-            <div class="reviewer-details">
-              <h3 class="reviewer-name">Ryan Scott</h3>
-              <p class="review-date">March 18, 2025</p>
-            </div>
-          </div>
-          <div class="review-rating">★★★★★</div>
-        </div>
-        <div class="review-content">
-          <h4 class="review-title">Top-notch customer support</h4>
-          <p class="review-text">
-            I had a small issue with redeeming a key and their support team resolved it within minutes. Very impressed!
-          </p>
-          <div class="review-game">
-            <span class="game-label">Purchased:</span>
-            <span class="game-name">Alan Wake 2</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
       </section>
     </main>
 
@@ -145,7 +277,7 @@
         <button id="cookie-accept" class="btn btn-cookie">Accept</button>
       </div>
     </div>
-
+    <script src="./js/cookie-manager.js"></script>
     <script src="./js/builder.js" type="module"></script>
     <script type="module" src="./js/cart-count.js"></script>
     <script src="./js/cookies.js"></script>

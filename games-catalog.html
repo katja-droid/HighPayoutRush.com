@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Browse VictoryPathRush's extensive collection of premium PC games. Find your next gaming adventure with instant delivery and secure payments."
+      content="Browse QuickTacticsPlay.com's extensive collection of premium PC games. Find your next gaming adventure with instant delivery and secure payments."
     />
     <meta
       name="keywords"
       content="PC games, digital games, game catalog, Steam keys, RPG games, action games, strategy games"
     />
-    <title>Game Catalog - VictoryPathRush</title>
+    <title>Games Catalog - QuickTacticsPlay.com</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,8 +29,8 @@
     <main>
       <section class="page-banner">
         <div class="container">
-          <h1 class="page-title">Game Catalog</h1>
-          <p class="page-description">Browse our collection of premium PC games</p>
+          <h1 class="page-title">Games Catalog</h1>
+          <p class="page-description">Discover your next gaming adventure</p>
         </div>
       </section>
       
@@ -56,11 +56,16 @@
                 <option value="strategy">Strategy</option>
                 <option value="simulation">Simulation</option>
                 <option value="adventure">Adventure</option>
+                <option value="casual">Casual</option>
               </select>
             </div>
           </div>
           
           <div class="games-grid" id="games-catalog"></div>
+          
+          <div class="pagination" id="catalog-pagination">
+            <!-- Pagination buttons will be added by JavaScript -->
+          </div>
         </div>
       </section>
     </main>
@@ -69,14 +74,14 @@
 
     <div id="cookie-notice" class="cookie-notice">
       <div class="cookie-content">
-        <p>We use cookies to enhance your gaming experience. By continuing, you agree to our cookie policy.</p>
-        <button id="cookie-accept" class="btn btn-cookie">Accept</button>
+        <p>We use cookies to enhance your gaming experience. By continuing, you consent to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-gold">Accept</button>
       </div>
     </div>
-
+    <script src="./js/cookie-manager.js"></script>
     <script src="./js/builder.js" type="module"></script>
     <script type="module" src="./js/games-catalog.js"></script>
-    <script type="module" src="./js/cart-count.js"></script>
-    <script src="./js/cookies.js"></script>
+    <script type="module" src="./js/cart-counter.js"></script>
+    <script src="./js/cookie-manager.js"></script>
   </body>
 </html>

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="VictoryPathRush - Your go-to platform for top-tier PC games. Explore our extensive library with fast delivery and secure transactions."
+      content="QuickTacticsPlay.com - Your premier destination for digital gaming excellence. Discover our vast collection with instant delivery and secure transactions."
     />
     <meta
       name="keywords"
       content="PC games, digital downloads, gaming store, Steam codes, RPG titles, action adventures, strategy games, game discounts, quick delivery"
     />
-    <title>VictoryPathRush - Elite PC Gaming</title>
+    <title>QuickTacticsPlay.com - Digital Gaming Excellence</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,69 +27,120 @@
     <header class="header"></header>
     
     <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="container hero-container">
-          <div class="hero-content">
-            <h1 class="hero-title">Embark on Your Next Epic Quest</h1>
-            <p class="hero-text">Discover top-quality PC games with instant access. Join countless thrilled gamers globally.</p>
-            
-            <div class="hero-buttons">
-              <a href="./games-catalog.html" class="btn btn-primary">Explore Titles</a>
-              <a href="./player-reviews.html" class="btn btn-outline">Check Reviews</a>
+      <!-- Hero Section with Slider -->
+      <section class="hero-slider-section">
+        <div class="container">
+          <div class="hero-flex">
+            <div class="hero-slider">
+              <h2 class="section-title">Featured Bestsellers</h2>
+              <div class="slider-container">
+                <div class="slider-wrapper" id="sliderWrapper">
+                  <!-- Slides will be added by JavaScript -->
+                </div>
+                <div class="slider-controls">
+                  <button class="slider-btn prev-btn" id="prevBtn">❮</button>
+                  <div class="slider-dots" id="sliderDots"></div>
+                  <button class="slider-btn next-btn" id="nextBtn">❯</button>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-          
-          <div class="hero-image">
-            <img src="./img/hero-image.png" alt="Gaming rig with controller and monitor" />
+            
+            <div class="hero-advantages">
+              <h2 class="section-title">Why Choose QuickTacticsPlay.com</h2>
+              <div class="advantages-list">
+                <div class="advantage-item">
+                  <div class="advantage-icon">🔒</div>
+                  <div class="advantage-content">
+                    <h3>Secure Data Processing</h3>
+                    <p>Your data is protected with industry-leading encryption technology</p>
+                  </div>
+                </div>
+                
+                <div class="advantage-item">
+                  <div class="advantage-icon">⚡</div>
+                  <div class="advantage-content">
+                    <h3>Instant Delivery</h3>
+                    <p>Receive your game keys immediately after purchase via email</p>
+                  </div>
+                </div>
+                
+                <div class="advantage-item">
+                  <div class="advantage-icon">💰</div>
+                  <div class="advantage-content">
+                    <h3>Competitive Pricing</h3>
+                    <p>We offer the best prices on the market with regular discounts</p>
+                  </div>
+                </div>
+                
+                <div class="advantage-item">
+                  <div class="advantage-icon">🎮</div>
+                  <div class="advantage-content">
+                    <h3>Curated Selection</h3>
+                    <p>Every game in our catalog is hand-picked for quality and value</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       
-      <!-- Featured Games Section -->
-      <section class="featured-games">
+      <!-- Featured Categories Section -->
+      <section class="featured-categories">
         <div class="container">
-          <h2 class="section-title">Top Picks</h2>
-          <div class="games-grid" id="featured-games"></div>
-          <div class="view-all">
-            <a href="./games-catalog.html" class="btn btn-secondary">See All Titles</a>
+          <h2 class="section-title">Explore Game Categories</h2>
+          <div class="categories-grid">
+            <a href="./games-catalog.html?genre=action" class="category-card">
+              <div class="category-overlay"></div>
+              <img src="./img/categories/action.jpg" alt="Action Games" class="category-img">
+              <h3 class="category-title">Action</h3>
+            </a>
+            
+            <a href="./games-catalog.html?genre=rpg" class="category-card">
+              <div class="category-overlay"></div>
+              <img src="./img/categories/rpg.jpg" alt="RPG Games" class="category-img">
+              <h3 class="category-title">RPG</h3>
+            </a>
+            
+            <a href="./games-catalog.html?genre=strategy" class="category-card">
+              <div class="category-overlay"></div>
+              <img src="./img/categories/strategy.jpg" alt="Strategy Games" class="category-img">
+              <h3 class="category-title">Strategy</h3>
+            </a>
+            
+            <a href="./games-catalog.html?genre=simulation" class="category-card">
+              <div class="category-overlay"></div>
+              <img src="./img/categories/simulation.jpg" alt="Simulation Games" class="category-img">
+              <h3 class="category-title">Simulation</h3>
+            </a>
           </div>
         </div>
       </section>
       
-      <!-- About Us Section -->
-      <section class="about-us-section">
+      <!-- Promo Section -->
+      <section class="promo-section">
         <div class="container">
-          <h2 class="section-title">Discover VictoryPathRush</h2>
-          <div class="about-us-grid">
-            <div class="about-us-content">
-              <h3 class="about-us-subtitle">Our Story in Gaming</h3>
-              <p class="about-us-text">
-                Launched in 2020 by dedicated gaming fans, VictoryPathRush was born from a desire to build a seamless online hub where players can find and enjoy premium games at fair prices, free from the usual online shopping frustrations.
-              </p>
-              <p class="about-us-text">
-                From a modest selection of indie titles, we’ve expanded into a vast catalog that includes major hits and unique indie creations. Every game is vetted by our team to ensure it meets our high standards, delivering only the best experiences to our community.
-              </p>
+          <div class="promo-grid">
+            <div class="promo-card">
+              <div class="promo-content">
+                <h3 class="promo-title">New Releases</h3>
+                <p class="promo-text">Be the first to experience the latest gaming sensations. Our new releases section is updated weekly with the hottest titles.</p>
+                <a href="./games-catalog.html" class="btn btn-gold">Discover Now</a>
+              </div>
+              <div class="promo-image">
+                <img src="./img/promo/new-releases.jpg" alt="New Releases">
+              </div>
             </div>
             
-            <div class="about-us-image">
-              <img src="./img/about-team.webp" alt="VictoryPathRush crew of gaming enthusiasts" class="about-image-rounded">
-            </div>
-            
-            <div class="about-us-image">
-              <img src="./img/about-office.webp" alt="VictoryPathRush workspace" class="about-image-rounded">
-            </div>
-            
-            <div class="about-us-content">
-              <h3 class="about-us-subtitle">Our Purpose & Principles</h3>
-              <p class="about-us-text">
-                At VictoryPathRush, we see gaming as more than a pastime—it’s a craft, a community, and a passion. Our goal is to make exceptional games available to all, providing instant access to thrilling digital worlds.
-              </p>
-              <p class="about-us-text">
-                We’re devoted to outstanding support, honest practices, and fostering a space where gamers feel appreciated. Whether you play occasionally or live for gaming, we’re here to elevate your experience with handpicked titles, great prices, and a smooth process.
-              </p>
-              <div class="about-us-cta">
-                <a href="./our-story.html" class="btn btn-primary">Dive Into Our Story</a>
+            <div class="promo-card reverse">
+              <div class="promo-content">
+                <h3 class="promo-title">Special Offers</h3>
+                <p class="promo-text">Incredible deals on top-rated games. Save up to 70% on selected titles for a limited time only.</p>
+                <a href="./games-catalog.html" class="btn btn-gold">View Deals</a>
+              </div>
+              <div class="promo-image">
+                <img src="./img/promo/special-offers.jpg" alt="Special Offers">
               </div>
             </div>
           </div>
@@ -100,12 +151,12 @@
       <section class="newsletter">
         <div class="container">
           <div class="newsletter-content">
-            <h2 class="newsletter-title">Keep in the Loop</h2>
-            <p class="newsletter-text">Join our newsletter for special offers, new game drops, and the latest gaming updates.</p>
+            <h2 class="newsletter-title">Join Our Gaming Community</h2>
+            <p class="newsletter-text">Subscribe to receive exclusive offers, early access to new releases, and gaming news tailored to your preferences.</p>
             
             <form id="newsletter-form" class="newsletter-form">
-              <input type="email" placeholder="Enter your email" required class="newsletter-input">
-              <button type="submit" class="btn btn-primary">Sign Up</button>
+              <input type="email" placeholder="Enter your email address" required class="newsletter-input">
+              <button type="submit" class="btn btn-gold">Subscribe</button>
             </form>
           </div>
         </div>
@@ -116,8 +167,8 @@
 
     <div id="cookie-notice" class="cookie-notice">
       <div class="cookie-content">
-        <p>We use cookies to improve your gaming journey. By proceeding, you accept our cookie policy.</p>
-        <button id="cookie-accept" class="btn btn-cookie">Agree</button>
+        <p>We use cookies to enhance your gaming experience. By continuing, you consent to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-gold">Accept</button>
       </div>
     </div>
     
@@ -126,15 +177,15 @@
       <div class="modal-content">
         <span class="modal-close">×</span>
         <div class="modal-icon">✓</div>
-        <h3 class="modal-title">Welcome Aboard!</h3>
-        <p class="modal-text">You’re now subscribed to our newsletter. Expect exclusive offers and gaming updates soon!</p>
+        <h3 class="modal-title">Subscription Confirmed!</h3>
+        <p class="modal-text">You've successfully joined our gaming community. Watch your inbox for exclusive offers and updates!</p>
       </div>
     </div>
     
     <script src="./js/builder.js" type="module"></script>
-    <script type="module" src="./js/featured-games.js"></script>
-    <script type="module" src="./js/cart-count.js"></script>
-    <script src="./js/cookies.js"></script>
-    <script src="./js/newsletter.js"></script>
+    <script type="module" src="./js/home-slider.js"></script>
+    <script type="module" src="./js/cart-counter.js"></script>
+    <script src="./js/cookie-manager.js"></script>
+    <script src="./js/newsletter-manager.js"></script>
   </body>
 </html>
