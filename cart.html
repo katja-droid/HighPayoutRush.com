@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -17,20 +17,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header"></header>
+    <header class="site-header" id="site-header"></header>
 
     <main>
-      <section class="page-banner">
+      <section class="page-header">
         <div class="container">
           <h1 class="page-title">Shopping Cart</h1>
-          <p class="page-description">Review your items and checkout</p>
+          <p class="page-description">Review your items and complete your purchase</p>
         </div>
       </section>
       
@@ -38,10 +38,10 @@
         <div class="container">
           <div class="cart-container">
             <div class="cart-items">
-              <h2 class="summary-title">Shopping Cart Items</h2>
+              <h2 class="summary-title">Cart Items</h2>
               <ul id="cart-list" class="cart-list"></ul>
               <p id="empty-cart-message" class="empty-cart-message" style="display: none">
-                Your cart is empty. <a href="./games-catalog.html">Continue shopping</a>
+                Your cart is empty. <a href="./catalog.html">Continue shopping</a>
               </p>
             </div>
             
@@ -75,12 +75,12 @@
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="site-footer" id="site-footer"></footer>
 
     <div id="cookie-notice" class="cookie-notice">
       <div class="cookie-content">
-        <p>We use cookies to enhance your gaming experience. By continuing, you agree to our cookie policy.</p>
-        <button id="cookie-accept" class="btn btn-cookie">Accept</button>
+        <p>This website uses cookies to enhance your browsing experience. By continuing, you consent to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-primary">Accept</button>
       </div>
     </div>
     
@@ -88,31 +88,31 @@
     <div id="checkout-modal" class="modal">
       <div class="modal-content">
         <span class="modal-close">&times;</span>
-        <h2 class="modal-title">Complete Your Order</h2>
+        <h2 class="modal-title">Complete Your Purchase</h2>
         
         <form id="checkout-form" class="checkout-form">
           <div class="form-group">
             <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" class="form-input" required>
           </div>
           
           <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" class="form-input" required>
           </div>
           
           <div class="form-group">
-            <label for="payment">Delivery Method</label>
-            <select id="payment" name="payment" required>
+            <label for="delivery">Delivery Method</label>
+            <select id="delivery" name="delivery" class="form-input" required>
               <option value="">Select delivery method</option>
-              <option value="credit-card">Pickup</option>
-              <option value="paypal">Mail</option>
+              <option value="email">Email Delivery</option>
+              <option value="account">Account Activation</option>
             </select>
           </div>
           
           <div class="form-group">
             <label for="notes">Order Notes (Optional)</label>
-            <textarea id="notes" name="notes"></textarea>
+            <textarea id="notes" name="notes" class="form-input"></textarea>
           </div>
           
           <div class="form-actions">
@@ -122,10 +122,10 @@
       </div>
     </div>
 
-    <script src="./js/builder.js" type="module"></script>
-    <script type="module" src="./js/cart.js"></script>
-        <script type="module" src="./js/checkout.js"></script>
-    <script type="module" src="./js/cart-count.js"></script>
-    <script src="./js/cookies.js"></script>
+    <script src="./js/site-builder.js"></script>
+    <script src="./js/cart-page.js"></script>
+    <script src="./js/checkout.js"></script>
+    <script src="./js/cart-manager.js"></script>
+    <script src="./js/cookie-manager.js"></script>
   </body>
 </html>

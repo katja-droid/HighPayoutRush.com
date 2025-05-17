@@ -2,83 +2,132 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="QuickTacticsPlay.com - Your premier destination for digital gaming excellence. Discover our vast collection with instant delivery and secure transactions."
+      content="HighPayoutRush.com - Your ultimate destination for digital PC games. Browse our extensive collection with instant delivery."
     />
     <meta
       name="keywords"
-      content="PC games, digital downloads, gaming store, Steam codes, RPG titles, action adventures, strategy games, game discounts, quick delivery"
+      content="PC games, digital downloads, gaming store, Steam codes, game keys, instant delivery"
     />
-    <title>QuickTacticsPlay.com - Digital Gaming Excellence</title>
+    <title>HighPayoutRush.com - Premium PC Games</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header"></header>
+    <header class="site-header" id="site-header"></header>
     
     <main>
-      <!-- Hero Section with Slider -->
-      <section class="hero-slider-section">
-        <div class="container">
-          <div class="hero-flex">
-            <div class="hero-slider">
-              <h2 class="section-title">Featured Bestsellers</h2>
-              <div class="slider-container">
-                <div class="slider-wrapper" id="sliderWrapper">
-                  <!-- Slides will be added by JavaScript -->
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Discover Your Next Gaming Adventure</h1>
+            <p class="hero-text">
+              Explore our vast selection of premium PC games at competitive prices. Instant delivery, secure transactions, and exceptional customer support guaranteed.
+            </p>
+            <div class="hero-buttons">
+              <a href="./catalog.html" class="btn btn-primary">Shop Now</a>
+              <a href="./about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+          
+          <div class="hero-image">
+            <img src="./assets/images/hero-image.jpg" alt="Featured games collection">
+          </div>
+        </div>
+      </section>
+      
+      <!-- Features and Reviews Section -->
+      <section class="features-reviews">
+        <div class="container features-reviews-grid">
+          <div class="features-section">
+            <h2 class="section-title">Why Choose HighPayoutRush.com</h2>
+            <div class="features-list">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="./assets/images/icons/flash.png" alt="Fast Delivery">
                 </div>
-                <div class="slider-controls">
-                  <button class="slider-btn prev-btn" id="prevBtn">❮</button>
-                  <div class="slider-dots" id="sliderDots"></div>
-                  <button class="slider-btn next-btn" id="nextBtn">❯</button>
-                  
+                <div class="feature-content">
+                  <h3 class="feature-title">Immediate Delivery</h3>
+                  <p class="feature-text">Receive your game keys instantly after purchase, allowing you to start playing without delay.</p>
+                </div>
+              </div>
+              
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="./assets/images/icons/shield.png" alt="Secure Transactions">
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Guaranteed Security</h3>
+                  <p class="feature-text">All transactions are protected with advanced encryption technology for your peace of mind.</p>
+                </div>
+              </div>
+              
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="./assets/images/icons/tag.png" alt="Best Prices">
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Competitive Pricing</h3>
+                  <p class="feature-text">We work directly with publishers to offer you the best possible deals on premium titles.</p>
+                </div>
+              </div>
+              
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img src="./assets/images/icons/support.png" alt="Customer Support">
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Dedicated Support</h3>
+                  <p class="feature-text">Our responsive customer service team is available to assist you with any questions or concerns.</p>
                 </div>
               </div>
             </div>
-            
-            <div class="hero-advantages">
-              <h2 class="section-title">Why Choose QuickTacticsPlay.com</h2>
-              <div class="advantages-list">
-                <div class="advantage-item">
-                  <div class="advantage-icon">🔒</div>
-                  <div class="advantage-content">
-                    <h3>Secure Data Processing</h3>
-                    <p>Your data is protected with industry-leading encryption technology</p>
-                  </div>
+          </div>
+          
+          <div class="reviews-section">
+            <h2 class="section-title">Player Testimonials</h2>
+            <div class="reviews-list">
+              <div class="review-item">
+                <div class="review-rating">★★★★★</div>
+                <p class="review-text">
+                  "The checkout process was seamless, and I received my game key within seconds. Definitely my go-to gaming store now!"
+                </p>
+                <div class="reviewer">
+                  <div class="reviewer-avatar">MJ</div>
+                  <div class="reviewer-name">Michael Johnson</div>
                 </div>
-                
-                <div class="advantage-item">
-                  <div class="advantage-icon">⚡</div>
-                  <div class="advantage-content">
-                    <h3>Instant Delivery</h3>
-                    <p>Receive your game keys immediately after purchase via email</p>
-                  </div>
+              </div>
+              
+              <div class="review-item">
+                <div class="review-rating">★★★★★</div>
+                <p class="review-text">
+                  "I was skeptical at first, but HighPayoutRush.com delivered exactly as promised. Great prices and instant delivery."
+                </p>
+                <div class="reviewer">
+                  <div class="reviewer-avatar">SL</div>
+                  <div class="reviewer-name">Sarah Lewis</div>
                 </div>
-                
-                <div class="advantage-item">
-                  <div class="advantage-icon">💰</div>
-                  <div class="advantage-content">
-                    <h3>Competitive Pricing</h3>
-                    <p>We offer the best prices on the market with regular discounts</p>
-                  </div>
-                </div>
-                
-                <div class="advantage-item">
-                  <div class="advantage-icon">🎮</div>
-                  <div class="advantage-content">
-                    <h3>Curated Selection</h3>
-                    <p>Every game in our catalog is hand-picked for quality and value</p>
-                  </div>
+              </div>
+              
+              <div class="review-item">
+                <div class="review-rating">★★★★☆</div>
+                <p class="review-text">
+                  "Their customer support helped me resolve an activation issue within minutes. Very impressed with the service!"
+                </p>
+                <div class="reviewer">
+                  <div class="reviewer-avatar">DP</div>
+                  <div class="reviewer-name">David Parker</div>
                 </div>
               </div>
             </div>
@@ -86,106 +135,66 @@
         </div>
       </section>
       
-      <!-- Featured Categories Section -->
-      <section class="featured-categories">
-        <div class="container">
-          <h2 class="section-title">Explore Game Categories</h2>
-          <div class="categories-grid">
-            <a href="./games-catalog.html?genre=action" class="category-card">
-              <div class="category-overlay"></div>
-              <img src="./img/categories/action.jpg" alt="Action Games" class="category-img">
-              <h3 class="category-title">Action</h3>
-            </a>
-            
-            <a href="./games-catalog.html?genre=rpg" class="category-card">
-              <div class="category-overlay"></div>
-              <img src="./img/categories/rpg.jpg" alt="RPG Games" class="category-img">
-              <h3 class="category-title">RPG</h3>
-            </a>
-            
-            <a href="./games-catalog.html?genre=strategy" class="category-card">
-              <div class="category-overlay"></div>
-              <img src="./img/categories/strategy.jpg" alt="Strategy Games" class="category-img">
-              <h3 class="category-title">Strategy</h3>
-            </a>
-            
-            <a href="./games-catalog.html?genre=simulation" class="category-card">
-              <div class="category-overlay"></div>
-              <img src="./img/categories/simulation.jpg" alt="Simulation Games" class="category-img">
-              <h3 class="category-title">Simulation</h3>
-            </a>
-          </div>
-        </div>
+      <!-- Featured Image Section -->
+      <section class="featured-image">
+        <img src="./assets/images/featured-banner.jpg" alt="Premium gaming experience">
       </section>
       
       <!-- Promo Section -->
       <section class="promo-section">
         <div class="container">
           <div class="promo-grid">
-            <div class="promo-card">
-              <div class="promo-content">
-                <h3 class="promo-title">New Releases</h3>
-                <p class="promo-text">Be the first to experience the latest gaming sensations. Our new releases section is updated weekly with the hottest titles.</p>
-                <a href="./games-catalog.html" class="btn btn-gold">Discover Now</a>
+            <div class="promo-item">
+              <div class="promo-icon">
+                <img src="./assets/images/icons/new.png" alt="New Releases">
               </div>
-              <div class="promo-image">
-                <img src="./img/promo/new-releases.jpg" alt="New Releases">
-              </div>
+              <h3 class="promo-title">Latest Releases</h3>
+              <p class="promo-text">
+                Stay ahead of the curve with our constantly updated collection of the newest game titles across all genres.
+              </p>
+              <a href="./catalog.html" class="btn btn-primary btn-small">Explore New Games</a>
             </div>
             
-            <div class="promo-card reverse">
-              <div class="promo-content">
-                <h3 class="promo-title">Special Offers</h3>
-                <p class="promo-text">Incredible deals on top-rated games. Save up to 70% on selected titles for a limited time only.</p>
-                <a href="./games-catalog.html" class="btn btn-gold">View Deals</a>
+            <div class="promo-item">
+              <div class="promo-icon">
+                <img src="./assets/images/icons/sale.png" alt="Special Offers">
               </div>
-              <div class="promo-image">
-                <img src="./img/promo/special-offers.jpg" alt="Special Offers">
-              </div>
+              <h3 class="promo-title">Special Deals</h3>
+              <p class="promo-text">
+                Take advantage of our limited-time offers and exclusive discounts on selected premium titles.
+              </p>
+              <a href="./catalog.html" class="btn btn-primary btn-small">View Deals</a>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      <!-- Newsletter Section -->
-      <section class="newsletter">
-        <div class="container">
-          <div class="newsletter-content">
-            <h2 class="newsletter-title">Join Our Gaming Community</h2>
-            <p class="newsletter-text">Subscribe to receive exclusive offers, early access to new releases, and gaming news tailored to your preferences.</p>
             
-            <form id="newsletter-form" class="newsletter-form">
-              <input type="email" placeholder="Enter your email address" required class="newsletter-input">
-              <button type="submit" class="btn btn-gold">Subscribe</button>
-            </form>
+            <div class="promo-item">
+              <div class="promo-icon">
+                <img src="./assets/images/icons/gift.png" alt="Gift Cards">
+              </div>
+              <h3 class="promo-title">Gift Options</h3>
+              <p class="promo-text">
+                Share the joy of gaming with friends and family through our digital gift cards and game gifting options.
+              </p>
+              <a href="./catalog.html" class="btn btn-primary btn-small">Gift a Game</a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="site-footer" id="site-footer"></footer>
 
     <div id="cookie-notice" class="cookie-notice">
       <div class="cookie-content">
-        <p>We use cookies to enhance your gaming experience. By continuing, you consent to our cookie policy.</p>
-        <button id="cookie-accept" class="btn btn-gold">Accept</button>
+        <p>This website uses cookies to enhance your browsing experience. By continuing, you consent to our cookie policy.</p>
+        <button id="cookie-accept" class="btn btn-primary">Accept</button>
       </div>
     </div>
     
-    <!-- Newsletter Success Modal -->
-    <div id="newsletter-modal" class="modal">
-      <div class="modal-content">
-        <span class="modal-close">×</span>
-        <div class="modal-icon">✓</div>
-        <h3 class="modal-title">Subscription Confirmed!</h3>
-        <p class="modal-text">You've successfully joined our gaming community. Watch your inbox for exclusive offers and updates!</p>
-      </div>
-    </div>
-    
-    <script src="./js/builder.js" type="module"></script>
-    <script type="module" src="./js/home-slider.js"></script>
-    <script type="module" src="./js/cart-counter.js"></script>
+    <script src="./js/site-builder.js"></script>
+    <script src="./js/home-slider.js"></script>
+    <script src="./js/popular-games.js"></script>
+    <script src="./js/newsletter.js"></script>
+    <script src="./js/cart-manager.js"></script>
     <script src="./js/cookie-manager.js"></script>
-    <script src="./js/newsletter-manager.js"></script>
   </body>
 </html>

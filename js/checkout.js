@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const orderData = {
         name: formData.get("name"),
         email: formData.get("email"),
-        payment: formData.get("payment"),
+        delivery: formData.get("delivery"),
         notes: formData.get("notes"),
-        orderId: "GV" + Math.floor(Math.random() * 1000000),
+        orderId: "DGH" + Math.floor(Math.random() * 1000000),
       }
 
       // In a real application, you would send this data to your server

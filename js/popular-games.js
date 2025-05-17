@@ -1,38 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const relatedGamesContainer = document.getElementById("related-games")
-
-  if (!relatedGamesContainer) return
-
-  // Get current game ID from URL
-  const urlParams = new URLSearchParams(window.location.search)
-  const currentGameId = Number.parseInt(urlParams.get("id"))
+  const popularGamesContainer = document.getElementById("popular-games")
+  if (!popularGamesContainer) return
 
   fetch("./data/games.json")
     .then((response) => response.json())
     .then((data) => {
-      // Get current game to find its genre
-      const currentGame = data.games.find((g) => g.id === currentGameId)
+      // Get 4 popular games (for this demo, we'll just take the first 4)
+      const popularGames = data.games.slice(0, 3)
 
-      if (!currentGame) return
+      popularGamesContainer.innerHTML = ""
 
-      // Find games with the same genre, excluding the current game
-      let relatedGames = data.games
-        .filter((game) => game.genre === currentGame.genre && game.id !== currentGameId)
-        .slice(0, 3)
-
-      // If we don't have enough related games by genre, add some random games
-      if (relatedGames.length < 3) {
-        const randomGames = data.games
-          .filter((game) => game.id !== currentGameId && !relatedGames.some((g) => g.id === game.id))
-          .sort(() => 0.5 - Math.random())
-          .slice(0, 3 - relatedGames.length)
-
-        relatedGames = [...relatedGames, ...randomGames]
-      }
-
-      relatedGamesContainer.innerHTML = ""
-
-      relatedGames.forEach((game) => {
+      popularGames.forEach((game) => {
         const gameCard = document.createElement("div")
         gameCard.className = "game-card"
 
@@ -54,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `
 
-        relatedGamesContainer.appendChild(gameCard)
+        popularGamesContainer.appendChild(gameCard)
 
         // Add event listener to the Add to Cart button
         const addToCartBtn = gameCard.querySelector(".add-to-cart-btn")
@@ -63,12 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
         })
       })
     })
-    .catch((error) => console.error("Error loading related games:", error))
+    .catch((error) => console.error("Error loading popular games:", error))
 })
 
 function addToCart(game) {
-  if (window.addToCart) {
-    window.addToCart(game)
+  // Import the addToCart function from cart-manager.js
+  if (window.addItemToCart) {
+    window.addItemToCart(game)
   } else {
     console.error("Cart manager not loaded")
   }

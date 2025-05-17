@@ -1,0 +1,136 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "Among Us",
+      "image": "./assets/images/games/1.jpg",
+      "price": 4.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2018-11-16",
+      "publisher": "InnerSloth",
+      "description": "A multiplayer party game where players work together on a space ship, but beware as one or more random players among the crew are impostors bent on sabotaging the mission."
+    },
+    {
+      "id": 2,
+      "title": "LEGO: Lord of the Rings",
+      "image": "./assets/images/games/2.jpg",
+      "price": 19.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2012-11-13",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "description": "Explore Middle-earth in LEGO form, following the epic storylines of The Lord of the Rings trilogy with the added humor that LEGO games are known for."
+    },
+    {
+      "id": 3,
+      "title": "GRID 2",
+      "image": "./assets/images/games/3.jpg",
+      "price": 24.99,
+      "genre": "Racing",
+      "platform": "PC",
+      "releaseDate": "2013-05-28",
+      "publisher": "Codemasters",
+      "description": "An immersive racing experience featuring a mix of street, road, and circuit racing across three continents with a variety of licensed vehicles."
+    },
+    {
+      "id": 4,
+      "title": "Heroes of Might & Magic III",
+      "image": "./assets/images/games/4.jpg",
+      "price": 9.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "1999-02-28",
+      "publisher": "Ubisoft",
+      "description": "A classic turn-based strategy game where players control heroes to explore fantasy landscapes, gather resources, and engage in tactical combat."
+    },
+    {
+      "id": 5,
+      "title": "Diplomacy is Not an Option",
+      "image": "./assets/images/games/5.jpg",
+      "price": 19.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2022-02-09",
+      "publisher": "Door 407",
+      "description": "A medieval castle siege game where you defend against thousands of angry peasants using strategy, resource management, and a touch of dark humor."
+    },
+    {
+      "id": 6,
+      "title": "The LEGO Ninjago Movie Video Game",
+      "image": "./assets/images/games/6.jpg",
+      "price": 29.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2017-09-22",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "description": "Battle through waves of enemies with honor and skill as your favorite ninjas Lloyd, Nya, Jay, Kai, Cole, Zane and Master Wu to defend Ninjago City."
+    },
+    {
+      "id": 7,
+      "title": "HELLDIVERS 2",
+      "image": "./assets/images/games/7.jpg",
+      "price": 39.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2024-02-08",
+      "publisher": "Sony Interactive Entertainment",
+      "description": "A cooperative third-person shooter where players fight against alien threats as elite soldiers, emphasizing teamwork and strategic gameplay."
+    },
+    {
+      "id": 8,
+      "title": "Star Wars The Force Unleashed: Ultimate Sith Edition",
+      "image": "./assets/images/games/8.jpg",
+      "price": 19.99,
+      "genre": "Action",
+      "platform": "PC",
+      "releaseDate": "2009-11-03",
+      "publisher": "LucasArts",
+      "description": "Experience the dark side of the Force as Darth Vader's secret apprentice, with expanded content and alternate storylines exploring the Sith legacy."
+    },
+    {
+      "id": 9,
+      "title": "The Elder Scrolls V: Skyrim (Special Edition)",
+      "image": "./assets/images/games/9.jpg",
+      "price": 39.99,
+      "genre": "RPG",
+      "platform": "PC",
+      "releaseDate": "2016-10-28",
+      "publisher": "Bethesda Softworks",
+      "description": "The critically acclaimed role-playing game remastered with all official add-ons, new features like remastered art and effects, and mod support."
+    },
+    {
+      "id": 10,
+      "title": "The Escapists 2",
+      "image": "./assets/images/games/10.jpg",
+      "price": 19.99,
+      "genre": "Strategy",
+      "platform": "PC",
+      "releaseDate": "2017-08-22",
+      "publisher": "Team17",
+      "description": "A prison escape simulator where you'll need to craft tools, form alliances, and execute elaborate breakout plans while avoiding the watchful eyes of guards."
+    },
+    {
+      "id": 11,
+      "title": "LEGO Star Wars III - The Clone Wars",
+      "image": "./assets/images/games/11.jpg",
+      "price": 19.99,
+      "genre": "Adventure",
+      "platform": "PC",
+      "releaseDate": "2011-03-22",
+      "publisher": "LucasArts",
+      "description": "Experience the Clone Wars in LEGO form with over 20 story-based missions, 40 bonus levels, and new battle modes featuring ground and space combat."
+    },
+    {
+      "id": 12,
+      "title": "Farming Simulator 25",
+      "image": "./assets/images/games/12.jpg",
+      "price": 49.99,
+      "genre": "Simulation",
+      "platform": "PC",
+      "releaseDate": "2024-11-12",
+      "publisher": "Giants Software",
+      "description": "The latest entry in the popular farming simulation series, featuring new machinery, crops, and enhanced gameplay mechanics for the ultimate agricultural experience."
+    }
+  ]
+}
